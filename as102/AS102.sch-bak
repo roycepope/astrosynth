@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "AS102 - 3 Channel Mixer"
+Date "2019-10-05"
+Rev "1.0"
+Comp "AstroSynth.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 5D98DFD6
+P 5600 3000
+F 0 "U?" H 5600 3367 50  0000 C CNN
+F 1 "TL072" H 5600 3276 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 2 1 5D9900FD
+P 6250 3650
+F 0 "U?" H 6250 4017 50  0000 C CNN
+F 1 "TL072" H 6250 3926 50  0000 C CNN
+F 2 "" H 6250 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6250 3650 50  0001 C CNN
+	2    6250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM2903 U?
+U 1 1 5D992E46
+P 3850 4700
+F 0 "U?" H 3850 5067 50  0000 C CNN
+F 1 "LM2903" H 3850 4976 50  0000 C CNN
+F 2 "" H 3850 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 3850 4700 50  0001 C CNN
+	1    3850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM2903 U?
+U 2 1 5D993AD2
+P 4350 5250
+F 0 "U?" H 4350 5617 50  0000 C CNN
+F 1 "LM2903" H 4350 5526 50  0000 C CNN
+F 2 "" H 4350 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 4350 5250 50  0001 C CNN
+	2    4350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC560 Q?
+U 1 1 5D99479D
+P 8100 4300
+F 0 "Q?" H 8291 4346 50  0000 L CNN
+F 1 "BC560" H 8291 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8300 4225 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 8100 4300 50  0001 L CNN
+	1    8100 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
